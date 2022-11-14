@@ -1,0 +1,31 @@
+.header{
+  margin-top: 10%;
+  font-size: 30px;
+  display: flex;
+  align-self: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+  img {
+    max-height: 500px;
+  }
+
+  .header-text {
+
+    margin-top: 100px;
+
+    h1 {
+      font-size: 60px;
+      margin-top: 20px;
+    }
+  
+    span {
+      color: #ff004f;
+    }
+
+    p {
+      font-family: sans-serif;
+    }
+  }
+
+}
