@@ -1,3 +1,19 @@
 .container{
   padding: 10px 10%;
 }
+
+.btn {
+  display: block;
+  margin: 50px auto;
+  width: fit-content;
+  border: 1px solid #1C6DD0;
+  padding: 14px 50px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #fff;
+  transition: background .5s;
+}
+
+.btn:hover {
+  background: #1C6DD0;
+}

@@ -8,11 +8,22 @@ nav{
   justify-content: space-between;
   flex-wrap: wrap;
   z-index: 1;
-  background: #F675A8;
+  background: #1C6DD0;
+  transition: top 0.3s;
+
+  h1 {
+    color: #fff;
+  }
 
   ul li {
     display: inline-block;
     list-style: none;
     margin: 10px 20px;
+
+    a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: 550;
+    }
   }
 }

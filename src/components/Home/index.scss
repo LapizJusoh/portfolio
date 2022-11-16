@@ -1,26 +1,29 @@
+#header {
+  background-size: 400% 400%;
+  height: 100vh;
+}
+
 .header{
   margin-top: 10%;
   font-size: 30px;
-  display: flex;
-  align-self: center;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+  text-align: center;
+  color: #fff;
 
   img {
-    max-height: 500px;
+    max-height: 300px;
   }
 
   .header-text {
 
-    margin-top: 100px;
+    margin-top: 10px;
 
     h1 {
-      font-size: 60px;
+      font-size: 50px;
       margin-top: 20px;
     }
   
     span {
-      color: #ff004f;
+      color: #1C6DD0;
     }
 
     p {
