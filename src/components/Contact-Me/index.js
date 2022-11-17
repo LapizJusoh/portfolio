@@ -13,7 +13,7 @@ const ContactMe = () => {
 
   return (
     <div id="contact">
-    <div className="container hidden">
+    <div className="container">
     <h1 className="sub-title" ref={myRef}><span>C</span>ontact Me</h1>
       <div className="row">
         <div className="contact-left">

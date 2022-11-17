@@ -8,7 +8,7 @@ import './index.scss';
 const MyWorks = () => {
   return (
     <div id="portfolio">
-    <div className="container hidden">
+    <div className="container">
       <h1 className="sub-title"><span>M</span>y Works</h1>
       <div className="work-list">
         <div className="work">

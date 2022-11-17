@@ -5,7 +5,7 @@ import './index.scss';
 const Skills = () => {
   return (
     <div id="services">
-    <div className="container hidden">
+    <div className="container">
       <h1 className="sub-title"><span>M</span>y Expertise</h1>
       <div className="services-list">
         <div>
