@@ -26,8 +26,8 @@
 
 .services-list div{
   background: #769ece;
-  padding: 40px;
   width: 30%;
+  padding: 40px;
   font-size: 16px;
   font-weight: 300;
   border-radius: 10px;
@@ -53,4 +53,15 @@
 .services-list div:hover{
   background: #1C6DD0;
   transform: translateY(-10px);
+}
+
+@media only screen and (max-width: 600px){
+  .services-list {
+    flex-wrap: wrap;
+    flex-basis: 100%;
+
+    div {
+      width: 100%;
+    }
+  }
 }

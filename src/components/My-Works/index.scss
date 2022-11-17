@@ -79,3 +79,10 @@
   border-radius: 50%;
   text-align: center;
 }
+
+@media only screen and (max-width: 600px){
+  .work-list {
+    flex-wrap: wrap;
+    flex-basis: 100%;
+  }
+}

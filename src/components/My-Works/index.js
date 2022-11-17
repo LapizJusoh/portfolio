@@ -1,13 +1,17 @@
 import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import React, { Component,useRef, useEffect, useState } from 'react';
+import { useInView } from 'react-intersection-observer';
 import Proj1 from './../../assets/images/proj1.png';
 import Proj2 from './../../assets/images/proj2.png';
 import Proj3 from './../../assets/images/proj3.png';
 import './index.scss';
 
 const MyWorks = () => {
+  const { ref: myRef, inView:myElementIsVisible } = useInView();
+
   return (
-    <div id="portfolio">
+    <div id="portfolio" ref={myRef} className={myElementIsVisible ? 'show' : 'hidden'}>
     <div className="container">
       <h1 className="sub-title"><span>M</span>y Works</h1>
       <div className="work-list">
