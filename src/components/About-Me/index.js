@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component,useRef, useEffect } from 'react';
 import KLPic from './../../assets/images/kualaLumpur.png';
 import './index.scss';
 
@@ -37,7 +37,7 @@ class AboutMe extends React.Component{
               <img src={KLPic} />
             </div>
             <div className="about-col-2">
-              <h1 className="sub-title">About Me</h1>
+              <h1 className="sub-title"><span>A</span>bout Me</h1>
               <p>Hello, there! Born and raised in Malaysia, I'm a former multimedia student that decide to branch out into tech.
                 Not only could I make full-stack applications from end-to-end, I also excel in using Adobe Illustrator and Premier Pro.
                 When I'm not coding, my hobbies include playing video games and reading novels.

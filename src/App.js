@@ -5,22 +5,12 @@ import Skills from './components/Skills/index.js';
 import MyWorks from './components/My-Works/index.js';
 import ContactMe from './components/Contact-Me/index.js';
 import Footer from './components/Footer/index.js';
-import { useRef, useEffect } from 'react';
+import React, { Component,useRef, useEffect, useState } from 'react';
+import { useInView } from 'react-intersection-observer';
 import './App.scss';
 
-const observer = new IntersectionObserver((entries) => {
-
-})
-
 function App() {
-  const myRef= useRef();
-  useEffect(()=>{
-    const observer = new IntersectionObserver((entries)=>{
-      console.log('myRef', myRef.current)
-      // const entry = entries[0];
-      // console.log('entry',entry);
-    }, [])
-  })
+  const { ref: myRef, inView:myElementIsVisible } = useInView();
 
   return (
     <div className="App">
@@ -31,7 +21,7 @@ function App() {
       <MyWorks />
       <ContactMe />
       <Footer />
-      <div className="wave" ref={myRef} ></div>
+      <div className="wave"></div>
       <div className="wave"></div>
       <div className="wave"></div>
     </div>

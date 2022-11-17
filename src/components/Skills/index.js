@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <div id="services">
     <div className="container hidden">
-      <h1 className="sub-title">My Expertise</h1>
+      <h1 className="sub-title"><span>M</span>y Expertise</h1>
       <div className="services-list">
         <div>
           <i><FontAwesomeIcon icon={faDesktop} /></i>
